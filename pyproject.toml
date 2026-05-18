@@ -3,7 +3,7 @@ name = "ia-pour-tous-benchmark"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.9"
 dependencies = [
     "openai>=1.30.0",
     "pandas>=2.0.0",
@@ -18,3 +18,9 @@ dependencies = [
 
 [project.scripts]
 benchmark = "main:main"
+
+[tool.black]
+target-version = ['py39', 'py310', 'py311', 'py312']
+
+[tool.ruff]
+target-version = "py39"
