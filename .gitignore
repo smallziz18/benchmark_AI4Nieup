@@ -1,0 +1,30 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+.vscode
+.idea
+.jbeval
+{benchmark_results,datasets}
+/benchmark_results/
+/datasets/dataset_C1_utiliser_IA_grand_public.csv
+/datasets/dataset_C2_analyser_avec_IA.csv
+/datasets/dataset_C3_construire_avec_IA.csv
+/datasets/dataset_C4_innover_avec_IA.csv
+/datasets/dataset_C5_mathematiques_IA.csv
+/datasets/dataset_MASTER_1_question.csv
+/datasets/dataset_MASTER_10_questions.csv
+/datasets/dataset_MASTER_benchmark_LLM_10.csv
+
+/docs/
+/examples/
+/scripts/
+/tests/
+/check_setup.py
